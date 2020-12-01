@@ -1,8 +1,18 @@
-'use strict';
-var http = require('http');
-var port = process.env.PORT || 1337;
+const button = document.getElementById('aBtn');
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+const titlee = document.getElementsByClassName('alist')
+
+function disapper(element){
+	let state = element.style.display;
+	if (state == 'none')
+	{
+		element.style.display = 'inline-block'
+	}
+	else
+	{
+		element.style.display = 'none'
+	}}
+
+button.addEventListener('click', function() {
+	disapper(titlee);
+})
