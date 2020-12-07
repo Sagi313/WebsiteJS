@@ -6,9 +6,7 @@ body{
 	position: relative;
 }
 
-.field-username,
-.field-email,
-.field-age
+.field-username
 {
 	position: absolute;
 	top: 10%;
@@ -18,4 +16,29 @@ body{
 	width: 400px;
 	/*background: black;*/
 	display: flex;
+}
+
+.field-email
+{
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	/*transform: translate(-50%,-50%);*/
+	height: 50px;
+	width: 400px;
+	/*background: black;*/
+	display: flex;
+
+}
+
+.field-age
+{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	height: 50px;
+	width: 400px;
+	/*background: black;*/
+	display: flex;
+
 }
