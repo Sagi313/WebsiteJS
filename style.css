@@ -1,7 +1,8 @@
 body{
 	height: 150hv;
 	display: flex;
-	background-color: rgb(87,198,130);
+
+	/*background-color: rgb(87,198,130);*/
 	transition: background 0.5s ease;
 	position: relative;
 }
@@ -25,8 +26,8 @@ body{
 	left: 40%;
 	/*transform: translate(-50%,-50%);*/
 	height: 50px;
-	width: 400px;
-	/*background: black;*/
+	width: 200px;
+	background: black;
 	display: flex;
 
 }
@@ -34,8 +35,8 @@ body{
 .field-age
 {
 	position: absolute;
-	top: 10%;
 	left: 20%;
+	top: 50%;
 	height: 50px;
 	width: 400px;
 	/*background: black;*/

@@ -1,18 +1,3 @@
-const button = document.getElementById('aBtn');
+var bgcolor=new Array("#029FD4", "#D43702", "#1EFF00", "#EAEAFF", "#FFEA00", "#AB5252", "#FFFFFF", "#DE28D8");
 
-const titlee = document.getElementsByClassName('alist')
-
-function disapper(element){
-	let state = element.style.display;
-	if (state == 'none')
-	{
-		element.style.display = 'inline-block'
-	}
-	else
-	{
-		element.style.display = 'none'
-	}}
-
-button.addEventListener('click', function() {
-	disapper(titlee);
-})
+document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)];
