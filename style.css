@@ -2,44 +2,45 @@ body{
 	height: 150hv;
 	display: flex;
 
-	/*background-color: rgb(87,198,130);*/
+	background-color: rgb(82, 212, 132);
 	transition: background 0.5s ease;
 	position: relative;
+}
+
+
+#logo{
+	position: absolute;
+	left: 10%;
+	top: 50%;
 }
 
 .field-username
 {
 	position: absolute;
+	top: 30%;
+	left: 50%;
+	height: 50px;
+	width: 400px;
+
+}
+
+.field-password
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 50px;
+	width: 400px;
+	display: flex;
+
+}
+
+.loginButton
+{
+	position: absolute;
 	top: 10%;
 	left: 50%;
-	/*transform: translate(-50%,-50%);*/
-	height: 50px;
-	width: 400px;
-	/*background: black;*/
-	display: flex;
-}
-
-.field-email
-{
-	position: absolute;
-	top: 10%;
-	left: 40%;
-	/*transform: translate(-50%,-50%);*/
 	height: 50px;
 	width: 200px;
-	background: black;
-	display: flex;
-
-}
-
-.field-age
-{
-	position: absolute;
-	left: 20%;
-	top: 50%;
-	height: 50px;
-	width: 400px;
-	/*background: black;*/
-	display: flex;
 
 }
